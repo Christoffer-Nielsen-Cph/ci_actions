@@ -56,12 +56,12 @@ public class MapperTest {
         assertEquals(expected.toString(),actual.toString());
     }
 
-    @Test
+   /* @Test
     void testThree() {
         UserMapper userMapper = new UserMapper();
         User expected = new User("Frank","Hansen","Hemmelig123",40404040,"Rolighedsvej 3");
         userMapper.updateUser(1,"Frank");
         User actual = userMapper.getDetailsOfSpecificUser(1);
         assertEquals(expected,actual);
-    }
+    } */
 }

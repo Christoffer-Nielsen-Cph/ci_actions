@@ -19,7 +19,7 @@ public class User {
         this.fname = fname;
         this.lname = lname;
     }
-
+    //
     public User(String fname) {
         this.fname = fname;
     }
