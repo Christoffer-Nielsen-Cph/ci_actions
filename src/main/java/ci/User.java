@@ -7,7 +7,7 @@ public class User {
     private int phone;
     private String address;
 
-    public User(String fname, String lname, String pw, int phone, String address) {
+    public User(String fname,String lname, String pw, int phone, String address) {
         this.fname = fname;
         this.lname = lname;
         this.pw = pw;
